@@ -20,8 +20,7 @@ import com.revature.service.PatientInfoService;
 @RestController
 /* @EnableDiscoveryClient */
 @RequestMapping("/api/v1")
-public class PatientInfoControlle
-r {
+public class PatientInfoController{
 
 	@Autowired
 	PatientInfoService patientService;
