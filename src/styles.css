@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+/* Laptop */
+@media (max-width: 1400px) {
+    .content {
+      padding: 20px;
+    }
+  }
+  
+  /* iPad Pro */
+  @media (max-width: 1024px) {
+    .sidebar {
+      width: 180px;
+    }
+  }
+  
+  /* iPhone 12 Pro */
+  @media (max-width: 390px) {
+    .sidebar {
+      display: none;
+    }
+  
+    .content {
+      padding: 10px;
+    }
+  
+    .login-card {
+      width: 100%;
+    }
+  }
+  

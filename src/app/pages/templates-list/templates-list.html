@@ -1,0 +1,39 @@
+<app-header></app-header>
+
+<div class="d-flex">
+  <app-sidebar></app-sidebar>
+
+  <div class="content p-4 w-100">
+    <h4>Template List</h4>
+
+    <table class="table table-bordered mt-3">
+      <thead class="table-light">
+        <tr>
+          <th>Name</th>
+          <th>Category</th>
+          <th>Status</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Offer Letter</td>
+          <td>HR</td>
+          <td>Active</td>
+          <td>
+            <button mat-button color="primary"
+                    routerLink="/edit-template">
+              Edit
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <button mat-raised-button color="primary"
+            routerLink="/create-template">
+      + Create Template
+    </button>
+  </div>
+</div>
+
