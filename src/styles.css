@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+ilwind components;
+@tailwind utilities;
+
+html,
+body {
+  margin: 0;
+  font-family: Inter, sans-serif;
+  backg@tailwind base;
+@taround: #f1f5f9;
+}
+
+.dashboard-card {
+  @apply bg-white rounded-3xl p-6 shadow-sm transition-all duration-300;
+}
+.dashboard-card:hover {
+  @apply shadow-2xl -translate-y-1;
+}
+
+.sidebar-link {
+  @apply flex items-center gap-3 px-4 py-3 rounded-2xl cursor-pointer transition-all duration-300;
+}
+
+.sidebar-link:hover {
+  @apply bg-secondary text-white;
+}
+
+.feed-btn {
+  @apply px-4 py-2 rounded-xl bg-slate-100 hover:bg-secondary hover:text-white transition-all duration-300;
+}
+.skill-chip {
+  @apply px-3 py-1 rounded-full bg-secondary/10 text-secondary text-sm;
+}
